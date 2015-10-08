@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         displayMessage(NUMBER);
 
         ImageView imageView = (ImageView) findViewById(R.id.img_star);
-        imageView.startAnimation(AnimationUtils.loadAnimation(getApplicationContext(), R.anim.clock_wise_rotation));
+        imageView.startAnimation(AnimationUtils.loadAnimation(getApplicationContext(), R.anim.anti_clock_wise_rotation));
 
         // unused code
         System.currentTimeMillis();
