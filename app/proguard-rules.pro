@@ -31,7 +31,7 @@
 
 #it will print name of all classes which is kept using keep option
 -printseeds keptFiles.txt
-# it will print name of all classes which are removed using shrinking process
+# it will print name of all classes which are removed/modified using shrinking process
 -printusage removedFiles.txt
 
 -optimizationpasses 3
